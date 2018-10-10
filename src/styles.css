@@ -1,0 +1,16 @@
+body{
+    background-image: url('.././src/assets/images/backgroundAll.jpg');
+    /* height: 500px; /* You must set a specified height */
+  background-position: left top; 
+  background-repeat: no-repeat; 
+  overflow: hidden;
+   height: 900px;
+  width: 1920px; 
+  margin-right: auto;
+   margin-left: auto;
+  background-size: 100% auto;
+}
+
+
+ 
+  

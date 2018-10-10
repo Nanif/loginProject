@@ -1,0 +1,103 @@
+ .login{
+    position: absolute;
+    /* top: 30%; */
+    text-align: center;
+    right: 20px;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;   
+}
+#submit{
+   border-radius: 5px;
+    background-color:  #bf8ec0;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.12);
+    width: 320px;
+    height: 70px;
+    font-family:"OpenSansHebrew";
+color:  #ffffff;
+font-size: 29.18px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 24.376px;/* Approximation due to font substitution */
+text-align: center;
+transform: scaleX(1.0096);/* width and height properties ommitted due to transform */
+}
+h1{
+    text-align: center;
+    font-family: "OpenSansHebrew";
+color:  #545454;
+font-size: 35.49px;/* Approximation due to font substitution */
+font-weight: 300;
+line-height: 24.376px;/* Approximation due to font substitution */
+text-align: center;
+transform: scaleY(1.0002);/* width and height properties ommitted due to transform */
+}
+
+#register{
+    font-family: "OpenSansHebrew";
+color:  #969696;
+font-size: 17.51px;/* Approximation due to font substitution */
+font-weight: 300;
+line-height: 32.396px;/* Approximation due to font substitution */
+text-align: center;
+transform: scaleY(1.0002);/* width and height properties ommitted due to transform */
+
+}
+
+input{
+    font-family: "OpenSansHebrew";
+color:  #969696;
+font-size: 20.82px;/* Approximation due to font substitution */
+font-weight: 300;
+line-height: 32.396px;/* Approximation due to font substitution */
+text-align: right;
+transform: scaleY(1.0002);/* width and height properties ommitted due to transform */
+}
+#forget{
+    font-family: OpenSansHebrew;
+color:  #969696;
+font-size: 17.51px;/* Approximation due to font substitution */
+font-weight: 300;
+line-height: 32.396px;/* Approximation due to font substitution */
+text-decoration: underline;
+text-align: left;
+transform: scaleY(1.0002);/* width and height properties ommitted due to transform */
+}
+input{
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 50%;
+    padding: 0.5em;
+    /* border-radius: 3px; */
+    color: #000;
+    background-color:gray;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em ;
+    text-transform: inherit; 
+    background-color: gray;
+  }
+
+  .wrraper-text-input {
+    width:auto;
+  }
+
+  .text-input-fields {
+    border: 0 0 1px 0 solid gray;
+    /* background-color: rgba(255, 255, 255, 0.2) !important; */
+    background-color: transparent !important;
+    width: 400px;
+
+}
+.submit-btn {
+border-radius: 5px;
+background-color:  #bf8ec0;
+box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.12);
+width: 320px;
+height: 70px;
+margin: 10px 0 0 65px;
+font-size: auto;
+}
+  

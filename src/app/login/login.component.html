@@ -1,0 +1,27 @@
+<div class="login text-center">
+  <img src="./../../assets/images/logo3.png" class=".align-content-md-center " style="width: 280px ;
+    height: 280px;">
+  <form (ngSubmit)="login()" #loginModelForm="ngForm">
+    <div class="wrraper-text-input">
+      <div>
+        <input type="email" name="mail" placeholder=":כתובת מייל" [(ngModel)]="email" required #Mail="ngModel" class="text-input-fields"
+        />
+        <div *ngIf="!Mail.valid && Mail.touched" id="id"></div>
+      </div>
+      <div>
+        <input type="password" name="password" placeholder=":סיסמה" [(ngModel)]="password" minlength="5" required #Password="ngModel"
+          class="text-input-fields" />
+        <div *ngIf="Password.errors?.required && Password.touched"></div>
+        <div *ngIf="Password.errors?.minlength && Password.touched">סיסמה קצרה מ-5 ספרות</div>
+      </div>
+    </div>
+    <a href="forget" id="forget">שכחתי סיסמה</a>
+    <div>
+      <input id="submit" type="submit" value="כניסה" class="submit-btn" [disabled]="!loginModelForm.form.valid" />
+    </div>
+  </form>
+  <div id="registeration">
+    <a href="register">הרשם עכשיו</a>
+    <p style="display: inline-block"> עדיין לא רשום?</p>
+  </div>
+</div>
